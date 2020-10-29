@@ -33,13 +33,12 @@
 <style>
     .select {
         padding: 8px 12px;
-        color:brown;
-        background-color:burlywood;
+        color:black;
+        background-color:sienna;
         border: 1px solid black;
         cursor: pointer;
         border-radius: 5px;
     }
-
 </style>
     <form>
         <h4>Brew Type</h4>
@@ -54,8 +53,19 @@
     <br>
     <br>
     <form>
+        <style>
+            .select {
+                padding: 8px 12px;
+                color:black;
+                background-color:sienna;
+                border: 1px solid black;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        </style>
         <h4>Served</h4>
-        <select name="Coffee Type">
+        <select class="select">
+        <option disabled selected>Served</option>
             <option value="Hot">Hot</option>
             <option value="Over Ice">Iced</option>
             <option value="Blended">Blended</option>
@@ -64,8 +74,19 @@
     <br>
     <br>
     <form>
+        <style>
+            .select {
+                padding: 8px 12px;
+                color:black;
+                background-color:sienna;
+                border: 1px solid black;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        </style>
         <h4>Size</h4>
-        <select name="Serving Size">
+        <select class="select">
+            <option disabled selected>Size</option>
             <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
