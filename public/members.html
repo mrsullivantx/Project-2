@@ -30,10 +30,21 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/members.js"></script>
+<style>
+    .select {
+        padding: 8px 12px;
+        color:brown;
+        background-color:burlywood;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: 5px;
+    }
 
+</style>
     <form>
         <h4>Brew Type</h4>
-        <select name="Coffee Roast">
+        <select class="select">
+        <option disabled selected>Roast</option>
             <option value="Dark">Dark Roast</option>
             <option value="Medium">Medium Roast</option>
             <option value="Light">Light Roast</option>
