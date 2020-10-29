@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>Passport Authentication</title>
+    <title>Meant 2 Bean</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
     <link href="stylesheets/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color:powderblue;">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -18,8 +18,11 @@
     </nav>
     <div class="container">
         <div class="row">
+            <img src="https://files.slack.com/files-pri/T017B4X0HLG-F01DA331RLJ/image_from_ios.jpg" alt="Meant 2 Bean" width="260" height="300" style="float:left">
             <div class="col-md-6 col-md-offset-3">
                 <h2>Login Form</h2>
+                <div id="clock">12:00PM</div>
+                <img src="https://lh3.googleusercontent.com/_lMDLEFe79fsMFXtqR28gLpWg_qVYIxWxRrHGRcMhQ5yPoKTx-Gxw74ol2-nMfG6wvnbCA=s85" alt="two coffe mugs with hearts" width="80" height="80" style="vertical-align:top">
                 <form class="login">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
@@ -43,7 +46,23 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
-
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script>
+        const clock = document.getElementById('clock');
+  
+        function updateTime () {
+  
+          const now = moment();
+          const humanReadable = now.format('MMMM Do YYYY, hh:mm:ssA')
+  
+  
+          clock.textContent = humanReadable;
+  
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
 </body>
 
 </html>
