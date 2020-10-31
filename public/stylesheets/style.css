@@ -3,9 +3,8 @@ form.login {
   margin-top: 50px;
 }
 
-body{
-background-image:url("Coffee Background.jpg");
-background-position: center;
-margin:0px;
-
-}
+    body{
+        background-image: url("Coffee background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
