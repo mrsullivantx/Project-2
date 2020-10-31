@@ -3,6 +3,20 @@ form.login {
   margin-top: 50px;
 }
 
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 48pt;
+  text-align: right;
+  color: oldlace;
+}
+
+h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24pt;
+  text-align: right;
+  color: oldlace;
+}
+
     body{
         background-image: url("Coffee background.jpg");
         background-repeat: no-repeat;
