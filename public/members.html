@@ -9,38 +9,35 @@
     <link href="stylesheets/style.css" rel="stylesheet">
 </head>
 
-<body style="background-color:lightyellow;">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/logout">
-                    Logout
-                </a>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h2>Welcome <span class="member-name"></span></h2>
-                <img src="https://files.slack.com/files-pri/T017B4X0HLG-F01DA331RLJ/image_from_ios.jpg" alt="Meant 2 Bean" width="260" height="300" style="float:left">
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/members.js"></script>
 <style>
     .select {
+        background-image:url("Coffee Background.jpg");
         padding: 8px 12px;
         color:black;
-        background-color:sienna;
+        background-color: brown;
         border: 1px solid black;
         cursor: pointer;
         border-radius: 5px;
     }
 </style>
-    <form>
+<body>
+
+    
+    <div class= "container">
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2>Welcome <span class="member-name"></span></h2>
+                <img src="https://files.slack.com/files-pri/T017B4X0HLG-F01DA331RLJ/image_from_ios.jpg"alt="Meant 2 Bean" width="260" height="300" style="float:left">
+            </div>
+        </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/members.js"></script>
+
+<div class="col-md-6 col-md-offset-3">
+    <form style=" text-align:left;">
         <h4>Brew Type</h4>
         <select class="select">
         <option disabled selected>Roast</option>
@@ -49,20 +46,10 @@
             <option value="Light">Light Roast</option>
             <option value="Extra">Extra Light Roast</option>
         </select>
-    </form>
+    
     <br>
     <br>
     <form>
-        <style>
-            .select {
-                padding: 8px 12px;
-                color:black;
-                background-color:sienna;
-                border: 1px solid black;
-                cursor: pointer;
-                border-radius: 5px;
-            }
-        </style>
         <h4>Served</h4>
         <select class="select">
         <option disabled selected>Served</option>
@@ -73,17 +60,8 @@
     </form>
     <br>
     <br>
-    <form>
-        <style>
-            .select {
-                padding: 8px 12px;
-                color:black;
-                background-color:sienna;
-                border: 1px solid black;
-                cursor: pointer;
-                border-radius: 5px;
-            }
-        </style>
+
+    
         <h4>Size</h4>
         <select class="select">
             <option disabled selected>Size</option>
@@ -91,7 +69,10 @@
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
+
     </form>
+    </div>
+    </div>
 </body>
 
 </html>
