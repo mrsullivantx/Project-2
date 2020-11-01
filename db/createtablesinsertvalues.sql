@@ -75,6 +75,58 @@ INSERT INTO size VALUES
 
 select * from size
 
+CREATE TABLE PREFERENCES
+(PREFERENCE_ID INT PRIMARY KEY,
+PREFERENCE_DATE DATE,
+QUANTITY INT,
+USER_ID INT,
+BEAN_VARIETY_ID INT,
+COFFEE_TYPE_ID INT,
+FLAVOR_ID INT,
+ROAST_TYPE_ID INT,
+SERVED_ID INT,
+SIZE_ID INT);
+
+CREATE TABLE COFFEE_DRINKERS
+(USER_ID INT PRIMARY KEY,
+FIRST_NAME varchar(200),
+LAST_NAME varchar(200),
+CITY varchar(200),
+STATE varchar(2));
+
+INSERT INTO coffee_drinkers VALUES
+(1, 'Michael', 'Ealy', 'Jump City', 'TX'),
+(2, 'Miranda', 'Lambert', 'Nashville', 'TN'),
+(3, 'Taraji', 'Henson', 'Los Angeles', 'CA'),
+(4, 'George', 'Strait', 'Dallas', 'TX'),
+(5, 'Michael', 'Coleman', 'Denver', 'CO');
+
+select * FROM coffee_drinkers
+SELECT * FROM PREFERENCES
+
+INSERT INTO PREFERENCES VALUES
+(2, '2020-10-31', 2, 4, 1, 2, 8, 1, 2,3),
+(3, '2020-10-31', 2, 5, 2, 3, 4, 1, 1,1),
+(4, '2020-09-30', 1, 6, 2, 4, 11, 2, 3,2),
+(5, '2020-10-01', 2, 3, 2, 2, 5, 1, 2,3),
+(6, '2020-10-15', 3, 2, 1, 2, 6, 4,3 ,3)
+
+SELECT PREFERENCE_DATE, QUANTITY, USER_ID,FLAVOR_ID
+FROM PREFERENCES
+WHERE QUANTITY = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
