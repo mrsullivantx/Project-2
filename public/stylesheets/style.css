@@ -3,3 +3,25 @@ form.login {
   margin-top: 50px;
 }
 
+h1{
+  font-family: Cochin, Cambria, serif;
+  font-size: 40pt;
+  text-align: left;
+  color: black;
+  
+}
+
+h3{
+  font-family: Cochin, Cambria, serif;
+  font-size: 20pt;
+  text-align: left;
+  color: black;
+  text-shadow: rgba(245, 245, 245, 0.226);
+}
+
+    body{
+        background-image: url("https://cdn.pixabay.com/photo/2020/08/18/15/16/coffee-5498486_1280.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-decoration-color: black;
+    }
