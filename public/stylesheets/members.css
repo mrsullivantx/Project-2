@@ -4,25 +4,24 @@ form.login {
 }
 
 h1{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 40pt;
-  text-align: left;
-  color: black;
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 48pt;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.986);
+  text-shadow:rgba(245, 245, 245, 0.226);
 }
 
-h3{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-align: left;
-  color: black;
-  
+h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24pt;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.986);
+  text-shadow: rgba(245, 245, 245, 0.226);
 }
 
     body{
-        background-image: url("https://cdn.pixabay.com/photo/2020/08/18/15/16/coffee-5498486_1280.jpg");
+        background-image: url("Coffee background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
-        text-decoration-color: black;
+        text-decoration-color: cornsilk;
     }

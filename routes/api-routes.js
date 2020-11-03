@@ -48,4 +48,9 @@ module.exports = (app) => {
             });
         }
     });
+
+    app.post('/api/coffee', (req, res) => {
+        console.log(req.body)
+        res.send(`YOUR REQUEST FOR A NEW COFFEE WAS RECEIVED, YOU CREATED A COFFEE FROM THIS OBJECT`.req.body)
+    })
 };
