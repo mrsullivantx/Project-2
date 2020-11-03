@@ -1,0 +1,10 @@
+form.signup,
+form.login {
+    margin-top: 50px;
+}
+
+body {
+    background-image: url("Coffee Background.jpg");
+    background-position: center;
+    margin: 0px;
+}
