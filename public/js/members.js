@@ -9,10 +9,12 @@ $(document).ready(() => {
 $('#coffee-form-submit').on('click', function() {
     //get values off of the form
     const roast = $('#roast-select').val()
+    const type = $('#type-select').val()
+    const flavor = $('#flavor-select').val()
     const temp = $('#temp-select').val()
     const size = $('#size-select').val()
 
-    const newOrder = { roast, temp, size }
+    const newOrder = { roast, temp, size, type, flavor }
 
     $.ajax({
         url: '/api/coffee',
