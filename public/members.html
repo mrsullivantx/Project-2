@@ -9,28 +9,31 @@
     <link href="stylesheets/members.css" rel="stylesheet">
 </head>
 
-
 <body>
 
-    
-    <div class= "container">
+
+    <div class="container">
 
         <div class="row">
+
             <div class="col-md-8 col-md-offset-3">
                 <h1><strong>Welcome</strong> <span class="member-name"></span></h1>
-                 <width="260" height="300" style="float:right">
+                 <img src= width="260" height="300" style="float:right">
+
             </div>
         </div>
         <br>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/members.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/members.js"></script>
+
 
 <div class="col-lg-8 col-lg-offset-3">
     <form style=" text-align:right;">
         <h4>Brew Type</h4>
-        <select class="select">
+        <select id="roast-select" class="select">
+
         <option disabled selected>Roast</option>
             <option value="Dark">Dark Roast</option>
             <option value="Medium">Medium Roast</option> 
@@ -68,7 +71,8 @@
     <br>
     <form>
         <h4>Served</h4>
-        <select class="select">
+        <select id="temp-select" class="select">
+
         <option disabled selected>Served</option>
             <option value="Hot">Hot</option>
             <option value="Over Ice">Iced</option>
@@ -79,15 +83,18 @@
 
     <form style=" text-align:right;">
         <h4>Size</h4>
-        <select class="select">
+        <select id="size-select" class="select">
+
             <option disabled selected>Size</option>
             <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
 
-    </form>
-    </div>
+                <button id='coffee-form-submit' type='submit'> Submit! </button>
+
+            </form>
+        </div>
     </div>
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css"></script>
