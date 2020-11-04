@@ -1,0 +1,12 @@
+form.signup,
+form.login {
+  margin: 0 auto;
+}
+
+body{
+
+  background-image: url("../images/coffeelogin.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin:0;
+}
