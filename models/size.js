@@ -1,12 +1,11 @@
-
-// Creating our Flavors model
+Creating our Size Model
 module.exports = (sequelize, DataTypes) => {
-    const flavors = sequelize.define("Flavors", {
-        Flavors: {
+    const size = sequelize.define("Size", {
+        size: {
             type: DataTypes.STRING,
             allowNull: false
         }
     });
     
-    return Flavors;
+    return size;
 };
