@@ -5,3 +5,9 @@ body{
   background-size: cover;
   margin:0;
 }
+
+h1 {
+
+  font-size: 32pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
