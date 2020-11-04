@@ -7,5 +7,5 @@ module.exports = (sequelize, DataTypes) => {
         }
     });
     
-    return size;
+    return Size;
 };
