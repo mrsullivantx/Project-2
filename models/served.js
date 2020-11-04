@@ -1,12 +1,11 @@
-
-// Creating our Flavors model
+Creating our Served model
 module.exports = (sequelize, DataTypes) => {
-    const flavors = sequelize.define("Flavors", {
-        Flavors: {
+    const served = sequelize.define("Served", {
+        served: {
             type: DataTypes.STRING,
             allowNull: false
         }
     });
     
-    return Flavors;
+    return Served;
 };
