@@ -1,4 +1,3 @@
-Creating our Size Model
 module.exports = (sequelize, DataTypes) => {
     const size = sequelize.define("Size", {
         size: {
@@ -6,6 +5,6 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         }
     });
-    
+
     return Size;
 };
